@@ -55,7 +55,7 @@ public class playername  extends AppCompatActivity {
             public void onClick(View v) {
             //    Player.p[0].name=e[0].getText().toString();
                 intent=new Intent(getApplicationContext(),Player.class);
-                Player.getInstance().name=name;
+                Player.getInstance().name=name
               //  name=e[0].getText().toString();
                 name=name;
                 //else
